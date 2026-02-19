@@ -1,0 +1,161 @@
+\documentclass{article}[a4paper]
+\usepackage{hyperref} 
+\usepackage{geometry}
+\usepackage{ulem} % for underline
+\geometry{top=2cm, left=2cm, right=2cm, bottom=2cm}
+\usepackage{calligra} % calligraphy font package
+\newcommand{\XSignature}{\calligra{Yiting Liu}\normalfont} % replace with your name
+\usepackage{parskip}
+
+\begin{document}
+\section*{Title:}
+Why Are Global P2P Lending Platforms Exiting Peer-to-Peer Models? A Comparative Analysis of Risks and Regulations
+
+\section*{Author's Information:}
+\textit{Yiting Liu}\\
+Faculty of Behavioural, Management and Social Sciences (BMS), University of Twente\\
+Drienerlolaan 5, 7522 NB Enschede, the Netherlands\\
+E-mail: \href{mailto:}{yiting.liu@utwente.nl}\\
+
+\textit{Joerg Osterrieder}\\
+Faculty of Behavioural, Management and Social Sciences (BMS), University of Twente\\
+Drienerlolaan 5, 7522 NB Enschede, the Netherlands\\
+E-mail: \href{mailto:}{joerg.osterrieder@utwente.nl}\\
+
+\textbf{Corresponding author:}\\
+\textit{Yiting Liu}, \href{mailto:}{yiting.liu@utwente.nl}
+
+\textbf{Short Bio}\\
+\emph{Yiting Liu} is a doctoral researcher at the Faculty of Behavioural, Management and Social Sciences, University of Twente, and a hired PhD student under the Swiss National Science Foundation project "Network-based credit risk models in P2P lending markets". His research focuses on credit risk modeling, graph theory, and peer-to-peer (P2P) lending. He holds an MSc in Quantitative Finance (Distinction) from the University of Manchester and a BSc in Statistics with a second major in Data Science from Fudan University. Yiting is a member of the COST Action CA19130 “Fintech and AI in Finance” and the MSCA Industrial Doctoral Network “Digital Finance.” He has presented his work at leading academic conferences in financial econometrics and network science across Europe.
+
+\emph{Joerg Osterrieder} is currently an Associate Professor of Finance and Artificial Intelligence at the University of Twente, Netherlands, and a Professor of Sustainable Finance at Bern Business School, Switzerland. He also holds an advisory position on Artificial Intelligence in the ING Group's Global Data Analytics Team. With over 15 years of experience, his expertise spans across financial statistics, quantitative finance, algorithmic trading, and financial digitization.
+
+He is the Chair of the European COST Action 19130 Fintech and Artificial Intelligence in Finance, a vast interdisciplinary network of over 270 researchers from 49 countries. As the director of the executive education course "Blockchain, Machine Learning, and Data Science in Finance," he guides learners in exploring the digital transformation of finance. Joerg is also a prime mover in annual research conferences on Artificial Intelligence in Finance.
+
+Joerg is also the Coordinator of the Marie Slodowska-Curie Action for an Industrial Doctoral Network on Digital Finance, funded by the European Research Agency.
+
+In the academic area, Joerg is a founding associate editor of Digital Finance, editor of Frontiers Artificial Intelligence in Finance, and an esteemed reviewer for numerous top-tier academic journals. He extends his expertise to the European Commission as an expert reviewer for the "Executive Agency for Small and Medium-Sized Enterprises" and "European Innovation Council Accelerator Pilot" programs.
+
+Joerg's impactful collaborations with the Finance industry have led to his leadership or co-leadership in over thirty national and international research projects. These projects span a broad range of quantitative, data-driven topics.
+
+Before his academic career, Joerg held prominent roles in the industry. He served as an executive director at Goldman Sachs and Merrill Lynch, a quantitative analyst at AHL, and a member of the senior management at Credit Suisse Group. His current endeavors involve working at the intersection of academia and industry, with a focus on implementing research findings in the financial services industry.
+
+\newpage
+\section*{Declaration}
+
+\subsection*{Availability of data and material}
+Not applicable.
+
+\subsection*{Competing interests}
+The authors declares that they have no competing interests.
+
+\subsection*{Funding}
+
+This research has been supported by several institutions through funding and collaborative efforts.
+
+First, this work is based on research from COST Action CA19130, for which the second author serves as Action Chair, and COST Action CA21163, both funded by COST (European Cooperation in Science and Technology). COST Actions support collaboration and knowledge exchange among researchers across Europe.
+
+The second author, as Principal Investigator of multiple projects funded by the Swiss National Science Foundation (SNF), acknowledges financial support from the following grants:
+\begin{itemize}
+    \item Mathematics and Fintech (IZCNZ0-174853) – Investigating the digital transformation of financial systems.
+    \item Anomaly and Fraud Detection in Blockchain Networks (IZSEZ0-211195) – Researching fraud detection and network anomalies in decentralized finance.
+    \item Narrative Digital Finance (IZCOZ0-213370) – Analyzing market narratives, structural breaks, and financial bubbles.
+    \item Network-Based Credit Risk Models in P2P Lending (100018E\_205487) – Developing network-based approaches for credit risk assessment.
+\end{itemize}
+
+The first author acknowledges financial support from the Narrative Digital Finance project (IZCOZ0-213370), funded by SNF.
+
+Additionally, funding has been provided by the Leading House Asia 2023 Call for Applied Research Partnership Grants for the project Graph-Theoretic Analysis for Consumer Credit Risk Assessment in Personal Lending (ARPG\_112023\_8).
+
+The second author also acknowledges the support of the Marie Skłodowska-Curie Actions (MSCA) through the European Union’s Horizon Europe research and innovation program, specifically for the Industrial Doctoral Network on Digital Finance (DIGITAL, Project No. 101119635), for which he is the Coordinator. This support has contributed to research efforts in digital finance at a European level.
+
+Further support has been provided by the European Union’s Horizon 2020 research and innovation program under Grant Agreement No. 825215 for the FIN-TECH project, which focuses on financial supervision and regulatory compliance through technology-driven training initiatives.
+
+We also acknowledge the collaboration between ING Group and the University of Twente, which has contributed to research in artificial intelligence applications in finance. Moreover, support from the International Advanced Fellowship-UBB program, funded by Babeș-Bolyai University (contract nr. 21PFE/30.12.2021, ID: PFE-550-UBB), has played a role in expanding the scope of this research.
+
+For the purpose of Open Access, a CC BY public copyright license applies to any Author Accepted Manuscript (AAM) version arising from this submission.
+
+\subsection*{Authors' Contributions}
+
+The research presented in this manuscript is a result of collaborative efforts between the authors, with each contributing specialized knowledge and skills. Their specific contributions are as follows:
+
+Yiting Liu (YL): YL performed the analysis, conducted the literature review, drafted the manuscript, and implemented revisions.
+
+Joerg Osterrieder (JO): JO provided the conceptual framework, supervised the research, critically reviewed the manuscript, and coordinated the overall project.
+
+Both authors have agreed to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. Both authors have read and approved the final manuscript.
+
+\subsection*{Acknowledgements}
+
+This research has been supported by several institutions through funding and collaborative efforts.
+
+First, this work is based on research from COST Action CA19130, for which the second author serves as Action Chair, and COST Action CA21163, both funded by COST (European Cooperation in Science and Technology). COST Actions support collaboration and knowledge exchange among researchers across Europe.
+
+The second author, as Principal Investigator of multiple projects funded by the Swiss National Science Foundation (SNF), acknowledges financial support from the following grants:
+\begin{itemize}
+    \item Mathematics and Fintech (IZCNZ0-174853) – Investigating the digital transformation of financial systems.
+    \item Anomaly and Fraud Detection in Blockchain Networks (IZSEZ0-211195) – Researching fraud detection and network anomalies in decentralized finance.
+    \item Narrative Digital Finance (IZCOZ0-213370) – Analyzing market narratives, structural breaks, and financial bubbles.
+    \item Network-Based Credit Risk Models in P2P Lending (100018E\_205487) – Developing network-based approaches for credit risk assessment.
+\end{itemize}
+
+The first author acknowledges financial support from the Narrative Digital Finance project (IZCOZ0-213370), funded by SNF.
+
+Additionally, funding has been provided by the Leading House Asia 2023 Call for Applied Research Partnership Grants for the project Graph-Theoretic Analysis for Consumer Credit Risk Assessment in Personal Lending (ARPG\_112023\_8).
+
+The second author also acknowledges the support of the Marie Skłodowska-Curie Actions (MSCA) through the European Union’s Horizon Europe research and innovation program, specifically for the Industrial Doctoral Network on Digital Finance (DIGITAL, Project No. 101119635), for which he is the Coordinator. This support has contributed to research efforts in digital finance at a European level.
+
+Further support has been provided by the European Union’s Horizon 2020 research and innovation program under Grant Agreement No. 825215 for the FIN-TECH project, which focuses on financial supervision and regulatory compliance through technology-driven training initiatives.
+
+We also acknowledge the collaboration between ING Group and the University of Twente, which has contributed to research in artificial intelligence applications in finance. Moreover, support from the International Advanced Fellowship-UBB program, funded by Babeș-Bolyai University (contract nr. 21PFE/30.12.2021, ID: PFE-550-UBB), has played a role in expanding the scope of this research.
+
+For the purpose of Open Access, a CC BY public copyright license applies to any Author Accepted Manuscript (AAM) version arising from this submission.
+
+\newpage
+\textbf{\underline{Editors-in-Chief:}}\\
+\textit{Zhi Zhuo}, Southwestern University of Finance and Economics, China\\
+\textit{J. Leon Zhao}, Chinese University of Hong Kong (Shenzhen), China\\
+
+\noindent
+\textbf{\underline{Managing Editor-in-Chief:}}\\
+\textit{Gang Kou}, Southwestern University of Finance and Economics, China\\
+
+\date{today}
+
+%\vspace{1em} % add space
+
+I am pleased to submit the manuscript entitled "Why Are Global P2P Lending Platforms Exiting Peer-to-Peer Models? A Comparative Analysis of Risks and Regulations" for your consideration for publication in Financial Innovation. This study investigates a recent and underexplored phenomenon in financial innovation: the strategic retreat of major peer-to-peer (P2P) lending platforms from the original decentralized intermediation model. Through a comparative analysis of eight leading platforms across North America, Europe, and Asia—including LendingClub, Zopa, and Yiren Digital—the paper explores how evolving internal risk pressures and external regulatory constraints have jointly driven platforms to abandon retail P2P operations in favor of institutional funding structures or digital banking transformations.
+
+The analysis combines platform-level case studies with a systematic synthesis of changes in product architecture and regulatory environments. By tracing each platform’s developmental trajectory, the paper identifies both common risk-related challenges—such as credit loss volatility and liquidity mismatch—and policy-induced pressures stemming from heightened investor protection mandates and financial stability concerns. In doing so, the study contributes to the broader literature on the institutionalization of financial technology, offering insights into how innovation-led platforms adapt under increasing regulatory scrutiny. It also raises critical questions regarding the sustainability of decentralized financial services in highly regulated settings.
+
+We believe this manuscript aligns well with the journal’s thematic focus on financial innovation, regulatory dynamics, and the evolution of digital intermediation models. It may be of particular interest to readers engaged in research on FinTech governance, platform economics, comparative financial regulation, and the long-term viability of peer-based financial services.
+
+The manuscript is original, has not been published, and is not under consideration elsewhere. All co-authors have approved its submission.
+
+Thank you for considering this work. Please feel free to contact me should you require any additional information.
+
+Sincerely,
+
+\vspace{1em} % add space for the signature
+
+\noindent
+\XSignature
+
+Yiting Liu\\
+University of Twente
+\newline
+
+cc: Joerg Osterrieder\\
+Professor of Sustainable Finance\\
+Associate Professor of Finance and Artificial Intelligence\\
+Action Chair COST Action CA19130 Fintech and Artificial Intelligence in Finance
+Coordinator MSCA Industrial Doctoral Network on Digital Finance
+\newpage
+
+
+\newpage
+
+\newpage
+
+
+\end{document}
